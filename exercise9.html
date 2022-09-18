@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Form</title>
+</head>
+<body>
+    <main>
+        <div>
+            <nav>
+                <a href="./index.html">
+                <img src="./logo.png" alt="KodeGo" style="width: 80px; 80px"></a>
+            </nav>
+        </div>
+        <form>
+            <h1>Learning HTML Form</h1>
+            <table border="0">
+                <tr>
+                    <td><label for="fullname">Full Name</td>
+                    <td><input type="text" name="fullname" id="fullname"></label></td>
+                </tr>
+                
+
+                <tr>
+                    <td><label for="mypassword">Password</td>
+                    <td><input type="password" name="mypassword" id="mypassword"></label></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email Address</td>
+                    <td><input type="email" name="email" id="email"></label></td>
+                    
+                </tr>   
+                
+                <tr>
+                    <td><label for="status">Status</td>
+                    <td>Single<input type="radio" name="single" id="single" value="Single">
+                    Married<input type="radio" name="married" id="married" value="Married">
+                    Widow<input type="radio" name="widow" id="widow" value="Widow"></label></td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB">Date of Birth</td>
+                    <td><input type="date" name="dob" id="dob">
+                    </label></td>
+                </tr>
+
+                <tr>
+                    <td><label for="age">Age</td>
+                    <td><input type="number" name="age" id="age" placeholder="18"></label></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="SSS" id="SSS">SSS</td>
+                </tr>
+
+                <tr>    
+                    <td><label for="ID" name"ID" id="ID">Government Benefits</label></td>
+                    <td><input type="checkbox" name="HDMF" id="HDMF">HDMF</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="PhilHealth" id="PhilHealth">PhilHealth</td>
+                    </label>
+                </tr>
+
+                <tr>
+                    <td><label for="time">Preferred Schedule</td>
+                    <td><input type="time" name="time" id="time">
+                    </label></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="payout">Payout Options</td>
+                    <td><select name="payout">
+                        <option value="Monthly">Monthly</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value=""></option>
+                    </select>
+                    </label></td>
+                </tr>
+
+                <tr>
+                    <td><label for="internet">Internet Provider</td>
+                    <td><input type="text" name="internet" id="internet">
+                </label></td>
+                </tr>
+                <tr>
+                    <td><label for="upload">Upload ID Photo</td>
+                    <td><input type="file" name="upload" id="upload">
+                    </label></td>
+                </tr>
+            </table>
+                <p>
+                    <label for="info">Additional Info
+                    <textarea id="info" rows="10" cols="30">
+                    </textarea>
+                    </label>
+                </p>
+                <p>
+                    <label for="submit">
+                    <input type="button" value="submit">
+                    </label>
+                </p>
+            
+        </form>
+    </main>
+    
+</body>
+</html>
