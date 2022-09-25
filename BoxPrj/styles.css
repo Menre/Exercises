@@ -1,0 +1,59 @@
+
+h1 {
+    text-align: center;
+}
+a {
+    color: blue
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 40px;
+}
+
+.aleft {
+    display: inline;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.aright { 
+    display: inline;
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+
+section {
+    display: inline;
+    width: 40%;
+    float: left;
+    padding: 20px;
+    border-left: 2px dotted grey;
+    border-right: 2px dotted grey;
+}
+img {
+    height: 250px;
+    width: 80%;
+
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+footer hr{
+    position:relative;
+    width: 100%;
+    
+}
